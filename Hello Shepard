@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title> My first Web </title>
+<P id="demo"> Is Shepard a Lolicon? </P>
+<button type= "button" onclicm "myFunc()"> Tap to see the answer! </>
+
+<script>
+function myFunc(){
+var text = "Yes! Shepard is a Lolicon!";
+document.getElementById("demo").innerHTML = text;
+}
+</script>
+</body>
+</html>
